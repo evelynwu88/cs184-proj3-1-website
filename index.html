@@ -183,6 +183,8 @@ For direct lighting importance, we perform the same steps as hemisphere, as we f
 
 
       <h3>4. For CBbunny.dae, compare rendered views with max_ray_depth set to 0, 1, 2, 3, and 100 (the -m flag). Use 1024 samples per pixel.</h3>
+      As the max_ray_depth increases, the rendered views become brighter.<br />
+      <br />
       max_ray_depth = 0: <br /> 
       <img src="websiteimages/p4-q4-0depth.png" alt="" width="700" />
       <br />
@@ -206,7 +208,9 @@ For direct lighting importance, we perform the same steps as hemisphere, as we f
       <br />
 
       <h3>5. Pick one scene and compare rendered views with various sample-per-pixel rates, including at least 1, 2, 4, 8, 16, 64, and 1024. Use 4 light rays.</h3>
-
+      As the sample-per-pixel rates increase, the rendered views become less noisy.
+      <br />
+      <br />
       sample-per-pixel = 1: <br />
       <img src="websiteimages/Part4_q5_s1.png" alt="" width="700" />
       <br />
